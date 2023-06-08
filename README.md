@@ -2,7 +2,7 @@
 
   <h3><b> Math Magicians</b></h3>
 
-</div>
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -28,19 +28,26 @@
 ## 🛠 Built With <a name="built-with"></a>
 By building this application, I use React.
 
-### Html/Css/JavaScript <a name="tech-stack"></a>
-React.
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML5</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS3</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript</a></li>
+  </ul>
+</details>
 
 
 
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 Key Features
 
 key features of the application:
- -Make simple calculations.
--Read a random math-related quote.
+-  [ ] Make simple calculations.
+-  [ ] Read a random math-related quote.
 
 
 
@@ -48,18 +55,17 @@ key features of the application:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
 
 
-- [Live Demo Link]--Coming soon
 
 
-<p align="right">(<a href="#readme-top"></a>)</p>
+
+<p align="right"><a href="#readme-top"></a></p>
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a
-
+## 💻 Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -104,8 +110,8 @@ Clone this repository to your desired folder:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- send and receive data from API
-- Live Demo.
+-  [ ] send and receive data from API
+-  [ ] Live Demo.
 
 
 
