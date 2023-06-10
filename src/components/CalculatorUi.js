@@ -1,28 +1,43 @@
-const CalculatorUi = () => (
-  <>
+import { useState } from 'react';
+import Display from './Display';
+import Button from './Button';
+
+const CalculatorUi = () => {
+  const [obj, setObj] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+
+  return (
     <div className="calculator-container">
-      <div className="calculator-display">0</div>
-      <button type="button" className="button bg-1">AC</button>
-      <button type="button" className="button bg-1">+/-</button>
-      <button type="button" className="button bg-1">%</button>
-      <button type="button" className="button bg-2">÷</button>
-      <button type="button" className="button bg-1">7</button>
-      <button type="button" className="button bg-1">8</button>
-      <button type="button" className="button bg-1">9</button>
-      <button type="button" className="button bg-2">x</button>
-      <button type="button" className="button bg-1">4</button>
-      <button type="button" className="button bg-1">5</button>
-      <button type="button" className="button bg-1">6</button>
-      <button type="button" className="button bg-2">-</button>
-      <button type="button" className="button bg-1">1</button>
-      <button type="button" className="button bg-1">2</button>
-      <button type="button" className="button bg-1">3</button>
-      <button type="button" className="button bg-2">+</button>
-      <button type="button" className="button bg-1 zero-btn">0</button>
-      <button type="button" className="button bg-1">.</button>
-      <button type="button" className="button bg-2">=</button>
+      <Display obj={obj} />
+      <Button value="AC" classList="button bg-1" setObj={setObj} obj={obj} />
+      <Button value="+/-" classList="button bg-1" setObj={setObj} obj={obj} />
+      <Button value="%" classList="button bg-1" setObj={setObj} obj={obj} />
+      <Button value="÷" classList="button bg-2" setObj={setObj} obj={obj} />
+      <Button value="7" classList="button bg-1" setObj={setObj} obj={obj} />
+      <Button value="8" classList="button bg-1" setObj={setObj} obj={obj} />
+      <Button value="9" classList="button bg-1" setObj={setObj} obj={obj} />
+      <Button value="x" classList="button bg-2" setObj={setObj} obj={obj} />
+      <Button value="4" classList="button bg-1" setObj={setObj} obj={obj} />
+      <Button value="5" classList="button bg-1" setObj={setObj} obj={obj} />
+      <Button value="6" classList="button bg-1" setObj={setObj} obj={obj} />
+      <Button value="-" classList="button bg-2" setObj={setObj} obj={obj} />
+      <Button value="1" classList="button bg-1" setObj={setObj} obj={obj} />
+      <Button value="2" classList="button bg-1" setObj={setObj} obj={obj} />
+      <Button value="3" classList="button bg-1" setObj={setObj} obj={obj} />
+      <Button value="+" classList="button bg-2" setObj={setObj} obj={obj} />
+      <Button
+        value="0"
+        classList="button bg-1 zero-btn"
+        setObj={setObj}
+        obj={obj}
+      />
+      <Button value="." classList="button bg-1" setObj={setObj} obj={obj} />
+      <Button value="=" classList="button bg-2" setObj={setObj} obj={obj} />
     </div>
-  </>
-);
+  );
+};
 
 export default CalculatorUi;
