@@ -54,3 +54,19 @@ body {
 .zero-btn {
   grid-column: 1/3;
 }
+
+.quotation div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quotation p {
+  margin: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+  font-style: italic;
+  background: transparent;
+}
