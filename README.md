@@ -46,6 +46,7 @@ By building this application, I use React.
 Key Features
 
 key features of the application:
+-  [ ] Home page that gives information about the Calculator.
 -  [ ] Make simple calculations.
 -  [ ] Read a random math-related quote.
 
@@ -81,7 +82,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 - With a git cmd, git bash or visual studio terminal, clone repo with **``git@github.com:coker2019/math_magician.git``** to download the repository locally on your machine.
-- Then you navigate to the folder in your code editor with the command *``cd coker2019/math-magician``*.
+- Then you navigate to the folder in your code editor with the command *``cd coker2019/math_magician``*.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +111,6 @@ Clone this repository to your desired folder:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
--  [ ] send and receive data from API
 -  [ ] Live Demo.
 
 
