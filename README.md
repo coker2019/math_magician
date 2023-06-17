@@ -56,7 +56,7 @@ key features of the application:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
+ ## 🚀 Live Demo <a name="live-demo">https://math-magicianapp.onrender.com</a> 
 
 
 
